@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700');
+
+* {
+margin: 0;
+padding: 0;
+font-family: "Open Sans", sans-serif;
+color:  rgba(255, 255, 255, 0.8);
+font-weight: 100;
+
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  height: 35px;
+
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 14px
+}
+
+.heart {
+  padding-left:0 15px;
+}
+
+.top-left {
+  display: inline-block;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header {
+  position: relative;
+  background-size: cover;
+  height: 450px;
+  background: url("images-npm/city-scape.svg");
+}
+
+.header .top-search {
+  font-weight: 100;
+  font-size: 16px;
+  padding-top: 20px;
+  width: 100%;
+  position: absolute;
+}
+.top-search a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+
+#bear-logo {
+  height: 44px;
+  width: 44px;
+}
+
+.sign-up {
+  width: 500px;
+  margin: 0 47% 0 auto;
+  padding-top: 150px;
+}
+
+.bottom-header {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+h2, h3 {
+  font-size: 36px;
+  font-weight: 100;
+  line-height: 1.3em;
+}
+
+.signup-login {
+  float: left;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  padding: 5px 5px 0 10px;
+}
+
+.signup-login a:hover {
+  color: rgb(255, 255, 255);
+}
+
+#npm-logo {
+  float: left;
+  height: 48px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#search-bar {
+  color: #586269;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(79,118,139);
+  padding: 11px 15px;
+  font-size: 1em;
+  float: left;
+}
+
+.top-search input {
+  width: 77%;
+}
+.top-search a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+
+.bottom-header {
+  width: 500px;
+  margin: 0 47% 0 auto;
+  padding-top: 150px;
+}
+.collab {
+  width: 460px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container h2 {
+  padding-top: 105px;
+  padding-bottom: 8px;
+  width: 390px;    
+}
+
+.container ul {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 2;
+  width: 420px;
+  padding-left: 20px;
+}
+
+.button {
+  color: #fff;
+  border-radius: 40px;
+  border: 0;
+  font-size: 18px;
+  padding: 7px 26px 8px;
+  margin-top: 30px;
+}
+
+.header button {
+  background-color: rgb(240, 146, 51);
+}
+
+.container button {
+  background-color: rgb(203, 56, 55);
+  margin-top: 15px;
+}
+
+.install button {
+  background-color: rgb(49, 68, 88);
+  margin-top: 25px;
+}
+
+.button:hover {
+  background-color: rgba(107, 250, 255, 0.562);
+  border: 1px solid black;
+  box-shadow: 2px 1px 7px 0	rgb(128,128,128);
+
+}
+
+.install {
+  position: relative;
+  background: url("https://static.npmjs.com/images/npm-is-BOXES.svg");
+  background-size: cover;
+  height: 508px;
+}
+
+.install-npm {
+  position: relative;
+  width: 350px;
+  margin: 0 57% 0 auto;
+}
+
+.install h3 {
+  padding-top: 105px;
+  padding-bottom: 8px;
+  width: 390px;
+}
+
+.install p {
+  padding-top: 20px;
+}
+section .content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#sign-up .container {
+  float: right;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.container #learn {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+#learn:hover {
+  text-decoration: underline;
+}
+
+.info {
+  background: white;
+  margin-top: 75px;
+}
+
+.find-info a:hover {
+  text-decoration: underline;
+}
+
+.info hr {
+  margin: 10px auto 20px auto;
+  width: 100%;
+}
+
+button a {
+  text-decoration: none;
+}
+
+#sign-up {
+  background: rgb(39, 53, 71);
+  height: 480px;
+  width: auto;
+}
+
+section .blocks {
+  width: 870px;
+  margin: 0 auto; 
+}
+section .content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.info h2, .info h3 {
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+.info p {
+  color: rgb(135, 145, 156);
+  font-size: 16px;
+  text-align: center;
+  line-height: 5em;
+}
+
+.find {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.find-info {
+  float: left;
+  width: 33%;
+  margin-bottom: 75px;
+}
+
+.find-info img {
+  padding: 10px 140px;
+}
+
+.find-info p {
+  padding: 15px 75px;
+  line-height: 1.30em;
+}
+
+.find-info a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
